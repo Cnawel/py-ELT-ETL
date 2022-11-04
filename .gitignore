@@ -8,6 +8,10 @@ __pycache__/
 
 # Config 
 config.ini
+*config.ini
+*config.*
+*.ini
+
 
 # Distribution / packaging
 .Python

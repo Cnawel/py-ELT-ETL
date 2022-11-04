@@ -1,0 +1,9 @@
+[twitter]
+api_key = SAMPLETOKEN_API_KEY
+api_key_secret = SAMPLETOKEN_API
+access_token = SAMPLETOKENACCESS
+access_token_secret = SAMPLETOKENSECRET
+bearer_token = SAMPLETOKEN
+
+# Here is your OAuth 2.0 Client ID and Client Secret
+
