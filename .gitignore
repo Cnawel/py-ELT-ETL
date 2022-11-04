@@ -7,7 +7,7 @@ __pycache__/
 *.so
 
 # Config 
-*.ini
+config.ini
 
 # Distribution / packaging
 .Python
