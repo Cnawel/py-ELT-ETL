@@ -1,18 +1,16 @@
 import os
-from tw_api_scrape1 import tweetAPI, tweetDF, now_datetime
+from tw_api_scrape import tweetAPI, tweetDF, now_datetime
 
 
 if __name__ == "__main__":
-    word_qry = 'enolaholmes'
-    hashtag = 'enolaholmes'
+    word_qry = 'csv'
+    hashtag = ''
     #date_since = "2022-01-01"
     date_since = "since:"
     date_until = "until:"
     #query = f"#{hashtag} {word_qry}-is:retweet {date_since} {date_until}"
-    query = f"#{hashtag} -is:retweet"
+    query = f"#{hashtag} {word_qry} -is:retweet"
     print(query)
-
-    dfColumns = ['Time', 'User', 'Tweet ID', 'Tweet FULL']
 
     tw_df =[]
     tw_raw = tweetAPI(query)

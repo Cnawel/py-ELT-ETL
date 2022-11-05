@@ -15,11 +15,9 @@ import tweepy
 import time
 import pandas as pd
 
-import datetime
-
-# # read config
+# # read config INI KEYS
 config = configparser.ConfigParser()
-config.read('config.ini')
+config.read("./config.ini")
 
 api_key = config['twitter']['api_key']
 api_key_secret = config['twitter']['api_key_secret']
@@ -33,9 +31,6 @@ auth.set_access_token(access_token, access_token_secret)
 
 # public_tweets = api.home_timeline()
 #print(public_tweets)
-
-
-timestr = time.strftime("%Y%m%d-%H%M%S")
 
 """
 If you don't understand search queries, there is an excellent introduction to it here: 
@@ -63,7 +58,7 @@ def tweetAPI(query):
     No input variables
     '''
     twapi = tweepy.API(auth)
-    tweetsRaw = twapi.search_tweets(query, count = 1000, tweet_mode = 'extended')
+    tweetsRaw = twapi.search_tweets(query, count = 500, tweet_mode = 'extended')
     return tweetsRaw
 
 # create dataframe from 
