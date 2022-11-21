@@ -4,4 +4,4 @@
 
 ## Support
 
-For support, email cnawel@bizkimia.com
+For support, email me
