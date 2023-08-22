@@ -1,9 +1,7 @@
 Basic ETL and ELT scripts made in Python, for using with several data sources
 
-1. For use with Twepy
+For use with Twepy
     a. Input Query and Query parameters (Date, CountMax, Hashtags)
     b. Tweets to Dataframe RAW
     c. Input selected columns, then get DataframeColumns
     d. Selecting this option will give you the RAW Tweets in CSV form with DATE, Hour in NAME.CSV
-
-2.  to be continued
