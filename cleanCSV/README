@@ -1,1 +1,6 @@
 Basic ETL and ELT scripts made in Python, for using with CSV files
+
+make a complete script, for taking a CSV file as a input from console (./example_script ./home/file)
+use python, best practices, comment code.
+the script will take de CSV file. will clean IT from stopwords, and symbols. and will make it all in lowcase letters.
+after that. it will output in 2 files. a json and a CSV. filename will have timestamp,and previous filename+CLEAN
